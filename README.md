@@ -1,16 +1,33 @@
-# playpay
 
-A new Flutter project.
+### 8. Enable Authentication in Firebase
 
-## Getting Started
+1. In the Firebase console, go to "Authentication"
+2. Click "Get started"
+3. Select "Email/Password" from the sign-in methods
+4. Enable the "Email/Password" option and save
 
-This project is a starting point for a Flutter application.
+### 9. Create a User
 
-A few resources to get you started if this is your first Flutter project:
+1. In the Firebase Authentication section, click "Add user"
+2. Enter an email and password for testing
+3. Click "Add user"
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 10. Login and Use PlayPay
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Open the app on your device
+2. Login with the credentials you created
+3. Start using the PlayPay features
+
+## Features
+
+- User authentication with email and password
+- QR code generation for payments
+- QR code scanning for processing payments
+- Profile management
+- Secure PIN setup for transactions
+
+## Troubleshooting
+
+- If you encounter build errors, make sure `google-services.json` is in the correct location
+- For "Failed to load FirebaseOptions" errors, verify your Firebase configuration
+- Make sure all dependencies are up-to-date with `flutter pub upgrade`
