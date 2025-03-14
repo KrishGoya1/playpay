@@ -1,3 +1,57 @@
+# PlayPay
+
+PlayPay is a mobile payment application built with Flutter and Firebase that allows users to securely make payments using QR codes.
+
+## Prerequisites
+
+Before getting started, make sure you have the following installed:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (latest stable version)
+- [Android SDK](https://developer.android.com/studio) (via Android Studio)
+- [Git](https://git-scm.com/downloads) for cloning the repository
+- A Google account for Firebase access
+
+## Setup and Build Instructions
+
+Follow these steps to set up and run the PlayPay application:
+
+### 1. Clone the Repository
+
+
+### 2. Firebase Setup
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/)
+2. Click "Create a project" or select an existing project
+3. Give your project a name (e.g., "PlayPay")
+4. Follow the on-screen instructions to complete project creation
+
+### 3. Add Android App to Firebase
+
+1. In the Firebase console, click on the Android icon to add an Android app
+2. Enter the package name: `com.example.playpay` (or your custom package name if changed)
+3. Enter app nickname: "PlayPay"
+4. (Optional) Enter SHA-1 if you need Google Sign-In
+5. Click "Register app"
+
+### 4. Download Configuration File
+
+1. Download the `google-services.json` file provided by Firebase
+2. Place this file in the `android/app` directory of your Flutter project
+
+### 5. Configure Your App
+
+The project should already be configured with the necessary Firebase dependencies, but verify:
+- The Google Services plugin is applied in `android/app/build.gradle.kts`
+- Firebase dependencies are in `pubspec.yaml`
+
+### 6. Connect Android Device
+
+1. Enable USB debugging on your Android device
+2. Connect it to your development machine
+3. Verify connection with `flutter devices`
+
+### 7. Run the Application
+
 
 ### 8. Enable Authentication in Firebase
 
